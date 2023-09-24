@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "367639018823",
+    "project_id": "duedates-df7ed",
+    "storage_bucket": "duedates-df7ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367639018823:android:2f1e7c71c0d38542712062",
+        "android_client_info": {
+          "package_name": "com.srijon.due_dates"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEP9h-KhS_bx2G9z2aMEqsQtdduWolSQ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
