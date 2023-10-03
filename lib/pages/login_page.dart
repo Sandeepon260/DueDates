@@ -11,7 +11,7 @@ import 'package:due_dates/components/google_button.dart';
 
 import 'package:firebase_core/firebase_core.dart';
 
-import 'forgot_password_page.dart';
+
 
 class LoginPage extends StatefulWidget {
   final Function()? onTap;
@@ -112,25 +112,29 @@ class _LoginPageState extends State<LoginPage> {
                   // forgot password?
                    Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 25.0),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.end,
-                      children: [
-                        GestureDetector(
-                          onTap: (){
-                            Navigator.push(context, MaterialPageRoute(builder: (context){
-                              return ForgotPasswordPage();
-                            },
-                            ),
-                            );
-                          },
-                          child: Text(
-                            'Forgot Password?',
-                            style: TextStyle(color: Colors.grey[600]),
-                          ),
-                        )
-
-                      ],
-                    ),
+                    child: Text(
+                              'Forgot Password?',
+                              style: TextStyle(color: Colors.grey[600]),
+                            )
+                    // Row(
+                    //   mainAxisAlignment: MainAxisAlignment.end,
+                    //   children: [
+                    //     GestureDetector(
+                    //       onTap: (){
+                    //         Navigator.push(context, MaterialPageRoute(builder: (context){
+                    //           return ;
+                    //         },
+                    //         ),
+                    //         );
+                    //       },
+                    //       child: Text(
+                    //         'Forgot Password?',
+                    //         style: TextStyle(color: Colors.grey[600]),
+                    //       ),
+                    //     )
+                    //
+                    //   ],
+                    // ),
                   ),
                   const SizedBox(height: 10),
                   // Sign in button

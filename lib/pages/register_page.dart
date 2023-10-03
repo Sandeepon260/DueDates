@@ -11,7 +11,7 @@ class RegisterPage extends StatefulWidget {
   const RegisterPage({super.key, required this.onTap});
 
   @override
-  State<RegisterPage> createState() => _RegisterPageState();
+  State<RegisterPage> createState() => _RegisterPageState(); 
 }
 
 class _RegisterPageState extends State<RegisterPage> {
@@ -38,7 +38,6 @@ class _RegisterPageState extends State<RegisterPage> {
           email: usernameController.text,
           password: passwordController.text,
         );
-
       Navigator.pop(context);
     } on FirebaseAuthException catch (e) {
       //pop the loading circle
@@ -47,6 +46,7 @@ class _RegisterPageState extends State<RegisterPage> {
       errorMessage(e.code);
       // Handle and display the error
     }
+
   }
   @override
   Widget build(BuildContext context) {
